@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Локални артефакти — не се държат в git
+data/datasets/
+models/*.joblib
+models/runs.json
+reports/
+
+# Streamlit runtime
+.streamlit/
+
+# Временни файлове
+*.log
+/tmp/
